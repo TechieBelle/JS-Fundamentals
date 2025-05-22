@@ -22,6 +22,6 @@ function showArguments(...args) {
   }
 }
 
-showArguments(2, 3, 4, 5);
+showArguments(2, 3, 4);
 showArguments(1);
 showArguments();
