@@ -1,10 +1,11 @@
 let argument = process.argv;
 
 if (argument.length < 3) {
-    console.log("0 argument")
+    console.log("undefined ")
 }
  else if (argument.length == 3){
-    console.log(`1 argument: ${argument[2]}`)
+    console.log(`${argument[2]} is undefined`)
 }
-else
-    console.log(`2 arguments: ${argument[2]} ${argument[3]}`);
+else{
+  console.log(` ${argument[2]} is ${argument[3]}`);
+}
