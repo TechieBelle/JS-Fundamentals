@@ -4,7 +4,7 @@ if (argument.length < 3) {
     console.log("0 argument")
 }
  else if (argument.length == 3){
-    console.log(argument[2])
+    console.log(`1 argument: ${argument[2]}`)
 }
 else
-    console.log(`${argument[2]} is ${argument[3]} `);
+    console.log(`2 arguments: ${argument[2]} ${argument[3]}`);
