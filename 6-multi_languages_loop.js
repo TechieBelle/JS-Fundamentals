@@ -1,5 +1,5 @@
 const args = process.argv.slice(2);
-const lines = [];
+const lines = ["C is fun", "Python is cool", "Javascript is amazing"];
 
 for (let i = 0; i < args.length; i++) {
   lines.push(args[i]);
