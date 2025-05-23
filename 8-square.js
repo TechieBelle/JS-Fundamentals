@@ -2,7 +2,7 @@ let argument = process.argv.slice(2)
 let x = Number(argument[0])
 let shape = "X"
 if (isNaN(x)) {
-    console.log("Missing number of occurence");
+    console.log("Missing size");
     
 } else {
     for (let i = 0; i < x; i++){
